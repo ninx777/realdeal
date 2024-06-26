@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #d0f0c0;  /* Mint green background color */
+    font-family: 'Leelawadee', UI Semilight;
+}
+
+.wrapper {
+    text-align: center;
+    background: beige; /* Beige background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: calc(100% - 192px); /* Reduce the width by approximately 2 inches */
+    max-width: 800px; /* Ensure it doesn’t get too wide on larger screens */
+}
+
+h1 {
+    color: castleton; /* Castleton green header color */
+}
+
+p {
+    font-size: 1.2em;
+    color: dark; /* Change paragraph color to Dark green */
+}
+
+button {
+    background-color: darkgreen; /* Dark green button background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: forest; /* Forest green background color */
+}
